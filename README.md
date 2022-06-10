@@ -18,3 +18,5 @@ Run this code in your terminal
 ```bash
   npm start
 ```
+
+For more details visit [react](https://reactjs.org/)
