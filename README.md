@@ -13,6 +13,8 @@ Run this code in command prompt
   cd react
 ```
 
+Next, the zipfile of my project in your path.
+
 Run this code in your terminal
 
 ```bash
