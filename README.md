@@ -6,11 +6,11 @@ The scrollable web application using `React.js`
 
 Install Node.js in your computer with this link [node.js](https://nodejs.org/en/)
 
-Install my-project with npm
+Run this code in command prompt
 
 ```bash
-  npm install my-project
-  cd my-project
+  npx create-react-app react
+  cd react
 ```
 
 Run this code in your terminal
