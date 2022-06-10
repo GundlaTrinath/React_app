@@ -1,6 +1,9 @@
 import { useRef } from 'react';
 import './App.css';
+import Pageone from './components/Pageone'
 import Pagetwo from './components/Pagetwo'
+import Pagethree from './components/Pagethree'
+
 
 function App() {
   const page1=useRef(null);
@@ -24,7 +27,7 @@ function App() {
         </ul>
       </div>
       <div ref={page1} className='page1'>
-        <h1>This is page 1</h1>
+        <Pageone primary={true}/>
       </div>
       <div ref={page2} className='page2'>
         <Pagetwo primary={true} name='Trinath' s_date='06/08/2022' e_date='06/12/2022'/>
@@ -32,7 +35,7 @@ function App() {
         <Pagetwo primary={true} name='Sara' s_date='06/02/2022' e_date='06/06/2022'/>
       </div>
       <div ref={page3} className='page3'>
-        <h1>This is page 3</h1>
+        <Pagethree primary={true}/>
       </div>
     </div>
   );
