@@ -3,15 +3,12 @@
 }
 .page{
   height: 30px;
-  background-color: aliceblue;
 }
 .page1{
   height: 100vh;
-  background-color:lightskyblue;
 }
 .page2{
   height: 100vh;
-  background-color:indianred;
   color: white;
   font-size: large;
   display: flex;
@@ -19,7 +16,6 @@
 }
 .page3{
   height: 100vh;
-  background-color: aquamarine;
 }
 .link{
   text-decoration: none;
